@@ -72,7 +72,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           </span>
         </h1>
         <div className="text-3xl md:text-4xl font-medium text-gray-300 mb-8 h-12">
-          <span>{typedText}</span>
+          <span>{"Software developer"}</span>
           <span
             ref={cursorRef}
             className="inline-block w-[3px] h-[30px] bg-cyan-400 ml-1 align-middle"
