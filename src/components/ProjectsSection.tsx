@@ -8,7 +8,7 @@ export const ProjectsSection: React.FC = () => {
       title: "Skincare Website",
       description:
         "An e-commerce skincare website, includes a blog section and where buyers can get product recommendation based on a conducted test",
-      image: "/public/images/pro1.jpeg",
+      image: "/images/pro1.jpeg",
       tags: ["react", "typescript", "tailwind"],
       github: "https://github.com/BomsG/skincare.git",
       demo: "https://skincare-pi-seven.vercel.app/",
@@ -40,7 +40,7 @@ export const ProjectsSection: React.FC = () => {
       title: "SolarAfriq",
       description:
         "SolarAfriq is a responsive solar e-commerce website with an admin dashboard, it is built with react and tailwind, connecting users with solar products and installers",
-      image: "/public/images/pro2.jpeg",
+      image: "/images/pro2.jpeg",
       tags: ["react", "nextjs"],
       github: "https://github.com/BomsG/solarAfriq.git",
       demo: "https://www.solarafriq.com/",
