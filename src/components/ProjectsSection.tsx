@@ -15,28 +15,16 @@ export const ProjectsSection: React.FC = () => {
     },
     {
       id: 2,
-      title: "Social Media App",
+      title: "TaskDo",
       description:
-        "A mobile-first social platform allowing users to connect, share content, and engage with communities.",
-      image:
-        "https://images.unsplash.com/photo-1573152958734-1922c188fba3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      tags: ["react-native", "typescript"],
-      github: "https://github.com",
-      demo: "https://demo.com",
+        "An engaging task management website, made to help you track your day",
+      image: "/images/taskdo.jpeg",
+      tags: ["react", "typescript", "tailwind"],
+      github: "https://github.com/BomsG/TaskDo.git",
+      demo: "https://taskdo-red.vercel.app/",
     },
     {
       id: 3,
-      title: "Personal Blog",
-      description:
-        "A customized WordPress blog with a modern design, optimized for performance and SEO.",
-      image:
-        "https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      tags: ["wordpress", "html-css"],
-      github: "https://github.com",
-      demo: "https://demo.com",
-    },
-    {
-      id: 4,
       title: "SolarAfriq",
       description:
         "SolarAfriq is a responsive solar e-commerce website with an admin dashboard, it is built with react and tailwind, connecting users with solar products and installers",
@@ -44,28 +32,6 @@ export const ProjectsSection: React.FC = () => {
       tags: ["react", "nextjs"],
       github: "https://github.com/BomsG/solarAfriq.git",
       demo: "https://www.solarafriq.com/",
-    },
-    {
-      id: 5,
-      title: "Task Management Platform",
-      description:
-        "A collaborative task management tool with drag-and-drop interfaces, team assignments, and progress tracking.",
-      image:
-        "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
-      tags: ["react", "typescript", "tailwind"],
-      github: "https://github.com",
-      demo: "https://demo.com",
-    },
-    {
-      id: 6,
-      title: "Fitness Tracker",
-      description:
-        "A mobile app for tracking workouts, nutrition, and progress with personalized recommendations.",
-      image:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      tags: ["react-native", "typescript"],
-      github: "https://github.com",
-      demo: "https://demo.com",
     },
   ];
   const filters = [

@@ -85,8 +85,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             animationFillMode: "forwards",
           }}
         >
-          I create engaging, responsive, and interactive web experiences with
-          modern technologies. Let's build something amazing together.
+          I create engaging, responsive, and interactive Web / Mobile app
+          experiences with modern technologies. Let's build something amazing
+          together.
         </p>
         <div
           className="flex flex-wrap justify-center gap-4 mb-12 animate-fadeIn opacity-0"
